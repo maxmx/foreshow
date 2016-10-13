@@ -1,0 +1,10 @@
+{
+    "extends": "eslint-config-airbnb-base",
+    "rules": {
+      "comma-dangle": 0
+    },
+    "globals": {
+      "document": false,
+      "window": false
+    }
+}

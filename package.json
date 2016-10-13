@@ -1,0 +1,39 @@
+{
+  "name": "foreshow",
+  "version": "0.1.0",
+  "description": "Links pre-rendering",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./dist/foreshow.js",
+  "module": "./index.js",
+  "scripts": {
+    "start": "webpack -w",
+    "build": "webpack -p",
+    "prepublish": "npm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmx/foreshow.git"
+  },
+  "keywords": [
+    "prerender"
+  ],
+  "author": "maximeb@gmail.com",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/maxmx/foreshow/issues"
+  },
+  "homepage": "https://github.com/maxmx/foreshow#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "webpack": "^1.13.2"
+  }
+}
